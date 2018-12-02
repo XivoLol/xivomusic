@@ -8,7 +8,7 @@ const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const queue = new Map();
 const client = new Discord.Client();
 
-const devs = ["336614900329611264"];
+const devs = ["476410664047345694"];
 const adminprefix = ["X"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
